@@ -1,0 +1,27 @@
+<!-- register.html (Registration Page) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Page</title>
+</head>
+<body>
+    <div class="container">
+        <form id="registerForm">
+            <h2 id="intro">Register</h2>
+            <label for="regUsername">Username:</label>
+            <input type="text" id="regUsername" name="regUsername" required>
+            <label for="regPassword">Password:</label>
+            <input type="password" id="regPassword" name="regPassword" required>
+            <button type="button" onclick="register()">Register</button>
+            <p id="registerMessage"></p>
+            <p>Already have an account? <a href="index.html">Login here</a></p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
